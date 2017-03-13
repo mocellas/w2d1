@@ -9,10 +9,8 @@ var getAndPrintHTML = function() {
     };
 
     /* Add your code here */
-    var appendChunks =  {};
-    for (var i = 0; i < string.length; i++){
+    var appendChunks = "";
 
-    }
   // notice that https.get takes a callback with one parameter -
   // response, which is a Stream that represents the HTTP response
   https.get(requestOptions, function (response) {
@@ -24,15 +22,17 @@ var getAndPrintHTML = function() {
     // the callback is invoked when a `data` chunk is received
     response.on('data', function (data) {
       console.log(1);
-      console.log('Chunk Received. Length:' + "\n", data.length);
+      console.log('Chunk Received. Length:' + "\n", data);
+      appendChunks += data;
     });
 
     // the callback is invoked when all of the data has been received
     // (the `end` of the stream)
     response.on('end', function() {
       console.log('Response stream complete.');
+      console.log('What is inside of the appendChunks', appendChunks);
     });
   });
 }
 //invoke the function
-getAndPrintHTMLChunks();
+getAndPrintHTML();

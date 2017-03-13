@@ -1,3 +1,4 @@
+// import https library
 var https = require('https');
 
 var getAndPrintHTMLChunks = function() {
@@ -30,5 +31,5 @@ var getAndPrintHTMLChunks = function() {
     });
   });
 }
-
+//invoke the function
 getAndPrintHTMLChunks();
