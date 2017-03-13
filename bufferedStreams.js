@@ -20,7 +20,7 @@ var getAndPrintHTML = function() {
     response.setEncoding('utf8');
 
     // the callback is invoked when a `data` chunk is received
-    response.on('data', function (data) {
+      response.on('data', function (data) {
       console.log(1);
       console.log('Chunk Received. Length:' + "\n", data);
       appendChunks += data;
