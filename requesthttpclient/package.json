@@ -1,0 +1,39 @@
+{
+<<<<<<< HEAD
+  "name": "requesthttpclient",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.81.0"
+  }
+=======
+  "name": "w2d1",
+  "version": "1.0.0",
+  "main": "lectureCode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mocellas/w2d1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mocellas/w2d1/issues"
+  },
+  "homepage": "https://github.com/mocellas/w2d1#readme",
+  "dependencies": {
+    "https": "^1.0.0"
+  },
+  "devDependencies": {},
+  "description": ""
+>>>>>>> f160703eb694c393909071cd8e0dd9b9c4e97e10
+}
